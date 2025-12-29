@@ -1,5 +1,5 @@
-# Neurobranch_Reinenforce
-这是一个使用强化学习（Reinenforce）来训练神经网络，使得它自发寻找SAT问题中更好的branching heuristics的项目（基于neurobranch_simp）。
-在neurobranch_simp的网络结构基础上，neurobranch_reinenforce通过一个精心设计的reward来优化网络。目前设想的影响reward的因素有：
+# Neurobranch_Reinforce
+这是一个使用强化学习（Reinforce）来训练神经网络，使得它自发寻找SAT问题中更好的branching heuristics的项目（基于neurobranch_simp）。
+在neurobranch_simp的网络结构基础上，neurobranch_reinforce通过一个精心设计的reward来优化网络。目前设想的影响reward的因素有：
 - 求解结果是否符合预期（与kissat求解结果比较，如果相同则给一个大奖励，否则给一个大惩罚）
 - 在trail中，每一步decision引起的BCP次数，由此确定的变量数

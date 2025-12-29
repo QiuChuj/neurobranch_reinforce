@@ -7,7 +7,7 @@ import json
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-from neurobranch_simp import create_simple_model
+from project.neurobranch_reinforce.python.neurobranch_reinforce import create_simple_model
 
 with open("/home/richard/project/neurobranch_simp/configs/config.json") as f:
     config = json.load(f)

@@ -1,5 +1,5 @@
 from torch.optim import Adam
-from neurobranch_simp import create_simple_model
+from project.neurobranch_reinforce.python.neurobranch_reinforce import create_simple_model
 from loaddata import create_data_loaders
 import json
 
