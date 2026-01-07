@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 
 from project.neurobranch_reinforce.python.neurobranch_reinforce import create_simple_model
 
-with open("/home/richard/project/neurobranch_simp/configs/config.json") as f:
+with open("/home/richard/project/neurobranch_reinforce/configs/config.json") as f:
     config = json.load(f)
 SIMP_VAR = config['max_vars']
 
